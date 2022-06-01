@@ -1,0 +1,43 @@
+@import "../../index.css";
+
+.input {
+  width: calc(100% - 1.4rem);
+  background-color: rgb(92, 93, 108);
+  border-radius: 0.5rem;
+  border: 0;
+  font-size: 1rem;
+  padding: 0.1rem 0.7rem;
+}
+
+.input:focus {
+  outline: none !important;
+  background-color: rgb(105, 106, 118);
+}
+
+.submit-button {
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.7rem;
+  background-color: rgba(35, 118, 71, 0.577);
+  color: rgba(115, 238, 156, 0.744);
+  width: 35%;
+}
+
+.submit-button:hover {
+  background-color: rgba(44, 150, 90, 0.577);
+  color: rgba(161, 234, 186, 0.744);
+}
+.submit-button:fucos {
+  background-color: rgba(44, 150, 90, 0.577);
+  color: rgba(161, 234, 186, 0.744);
+}
+
+.form-input {
+  gap: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .submit-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../index.css";
+
+.card {
+  width: 80%;
+  padding: 2rem;
+  min-width: fit-content;
+  border-radius: 1rem;
+  box-shadow: 0 0.1rem 0.5rem -0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.card-1 {
+  background-color: #414149;
+}
+
+.card-2 {
+  padding: 1rem;
+  width: calc(100% - 2rem);
+  background-color: #494953;
+}

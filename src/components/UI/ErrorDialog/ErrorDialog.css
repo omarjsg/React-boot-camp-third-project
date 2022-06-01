@@ -1,0 +1,15 @@
+@import "../../../index.css";
+
+.dialog {
+  width: fit-content;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.3rem;
+  background-color: rgba(143, 34, 34, 0.666);
+  align-self: center;
+}
+
+.dialog-message {
+  margin: 0;
+  color: rgba(214, 128, 145, 0.891);
+  font-size: 0.7rem;
+}
